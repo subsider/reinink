@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "391c3b78ff67b1ef6f2a88ca30d0c60c",
+    "content-hash": "a454af87811fd7604e734ee1daa8aff4",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -759,6 +759,61 @@
                 "storage"
             ],
             "time": "2019-12-29T14:46:55+00:00"
+        },
+        {
+            "name": "livewire/livewire",
+            "version": "v0.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/livewire/livewire.git",
+                "reference": "a41da65de735c2d51bb28c0497711a622dec09d6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/a41da65de735c2d51bb28c0497711a622dec09d6",
+                "reference": "a41da65de735c2d51bb28c0497711a622dec09d6",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^5.6|^6.0",
+                "illuminate/support": "^5.6|^6.0",
+                "illuminate/validation": "^5.6|^6.0",
+                "symfony/http-kernel": "^4.0|^5.0"
+            },
+            "require-dev": {
+                "laravel/framework": "^5.6|^6.0",
+                "orchestra/testbench": "~4.0",
+                "phpunit/phpunit": "^8.3",
+                "psy/psysh": "@stable"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Livewire\\LivewireServiceProvider"
+                    ],
+                    "aliases": {
+                        "Livewire": "Livewire\\Livewire"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Livewire\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Caleb Porzio",
+                    "email": "calebporzio@gmail.com"
+                }
+            ],
+            "description": "Build and test rich client-side functionality: with only backend code.",
+            "time": "2019-12-27T21:43:30+00:00"
         },
         {
             "name": "monolog/monolog",
